@@ -25,6 +25,12 @@ https://github.com/GameDev2020/week_4/blob/main/2/que2/Assets/limitworld_que2_2.
 
 ברגע ששחקן חורג מהגבולות, מיקומו נשאר בגבול.
 
+נוסף לכך הוספנו את הסקריפט הבא
+
+https://github.com/GameDev2020/week_4/blob/main/2/que2/Assets/que_2_2_LimitDestroy.cs
+
+סקריפט זה משמיד את הלייזר או את האויב כאשר חורגים את גבולות המסך
+
 3. השתמשנו בסקריפט הבא
 
 https://github.com/GameDev2020/week_4/blob/main/2/que2/Assets/roundWorld.cs
