@@ -8,3 +8,17 @@
 
 בשאלה זאת יצרנו אובייקט חדש עם תג אויב מהיר
 ובנוסף לכך עידכנו את הפונקציות הבאות:
+
+* DestroyOnTrigger2D.cs
+
+https://github.com/GameDev2020/week_4/blob/main/1/FastSlowEnemy/Assets/Scripts/3-collisions/DestroyOnTrigger2D.cs
+
+בפונקציה זו ביצענו עדכון כך שהשמדה תבוצע עבור אובייקטים עם תג אויב מהיר בנוסף לאויב האיטי
+כמו כן, עבור האויב המהיר עדכנו את פונקציית ההתנגשות כך שאם אובייקט עם התג לייזר יפגע בו הוא יושמד.
+זאת בדומה לאויב המקורי.
+
+* ScoreAdder.cs
+
+https://github.com/GameDev2020/week_4/blob/main/1/FastSlowEnemy/Assets/Scripts/3-collisions/ScoreAdder.cs
+
+נוסף לכך ביצענו עדכון לפונקציה של הסכימה כך שאם ישנה התנגשות עם אויב מהיר, תתבצע צבירה של 3 נקודות וכן אם תתבצע התנגשות עם אויב רגיל תתצטבר נקודה אחת.
