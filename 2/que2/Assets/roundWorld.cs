@@ -16,10 +16,10 @@ public class roundWorld : MonoBehaviour
         cam = Camera.main;
         distanceZ = cam.transform.position.z - transform.position.z;
 
-        left = cam.ScreenToWorldPoint(new Vector3(0.0f, 0.0f, distanceZ)).x;
-        right = cam.ScreenToWorldPoint(new Vector3(Screen.width, 0.0f, distanceZ)).x;
-        bottom= cam.ScreenToWorldPoint(new Vector3(0.0f, 0.0f, distanceZ)).y;
-        top = cam.ScreenToWorldPoint(new Vector3(0.0f, Screen.height, distanceZ)).y;
+        left = cam.ScreenToWorldPoint(new Vector3(0, 0, distanceZ)).x;
+        right = cam.ScreenToWorldPoint(new Vector3(Screen.width, 0, distanceZ)).x;
+        bottom= cam.ScreenToWorldPoint(new Vector3(0, 0, distanceZ)).y;
+        top = cam.ScreenToWorldPoint(new Vector3(0, Screen.height, distanceZ)).y;
     }
 
 
